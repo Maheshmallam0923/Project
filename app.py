@@ -1,4 +1,4 @@
-import boto3
+import Linux 
 client=boto3.client('ec2')
 response = client.terminate_instances(
     InstanceIds=[
