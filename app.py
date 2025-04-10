@@ -1,4 +1,5 @@
 import Linux 
+import from Hyderabad
 client=boto3.client('ec2')
 response = client.terminate_instances(
     InstanceIds=[
