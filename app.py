@@ -1,5 +1,5 @@
 import Linux 
-import from Iam changed mahesh
+import from Iam changed from AWS
 client=boto3.client('ec2')
 response = client.terminate_instances(
     InstanceIds=[
